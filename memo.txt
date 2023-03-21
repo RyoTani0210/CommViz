@@ -1,0 +1,20 @@
+Django
+
+新規プロジェクト作成
+
+
+
+サーバ作成(migretes.sh)
+
+アプリケーション追加
+(app1.sh)
+
+サーバ起動(run.sh)
+
+
+管理者サイトアカウント作成(createsuperuser.sh)
+
+
+日本向け設定
+manage.pyのLanguage codeをjaに
+TIME_ZONEをAsia/Tokyoに
