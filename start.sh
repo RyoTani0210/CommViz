@@ -1,9 +1,11 @@
 #!/bin/bash
+# サーバ作成用
+#
 #1. プロジェクト作成
 django-admin startproject commviz .
 #2. サーバ作成
 python manage.py migrate
-#3. 管理画面にスーパーユーザ作成
-python manage.py createsuperuser
+python manage.py runserver 0.0.0.0:8000
+
 #アプリケーションサーバ作成
-python manage.py startapp commviz-server
+python manage.py startapp commviz_server
